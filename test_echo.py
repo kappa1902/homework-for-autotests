@@ -3,7 +3,7 @@ import requests
 BASE_URL = "https://postman-echo.com"
 
 
-GET-запрос: проверка передачи параметров в URL
+# GET-запрос: проверка передачи параметров в URL
 def test_get_query_params():
     url = f"{BASE_URL}/get"
     params = {"name":"Andrey", "course": "QA"}
