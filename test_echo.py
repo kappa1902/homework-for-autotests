@@ -8,7 +8,7 @@ def test_get_query_params():
 
     response = requests.get(url, params=params)
 
-    assert response.status_code == 400
+    assert response.status_code == 200
     assert response.json()["args"] == params
 
 
